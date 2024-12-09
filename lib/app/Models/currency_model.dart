@@ -1,33 +1,33 @@
-class CurrancyModel {
+class CurrencyModel {
   final String name;
   final double real;
   final double dolar;
   final double euro;
   final double bitcoins;
 
-  CurrancyModel({this.name, this.real, this.dolar, this.euro, this.bitcoins});
+  CurrencyModel({this.name, this.real, this.dolar, this.euro, this.bitcoins});
 
-  static List<CurrancyModel> getCurrencies() {
-    return <CurrancyModel>[
-      CurrancyModel(
+  static List<CurrencyModel> getCurrencies() {
+    return <CurrencyModel>[
+      CurrencyModel(
           name: 'Real',
           real: 1.0,
           dolar: 0.18,
           euro: 0.15,
           bitcoins: 0.000016),
-      CurrancyModel(
+      CurrencyModel(
           name: 'Dolar',
           real: 5.65,
           dolar: 1.0,
           euro: 0.85,
           bitcoins: 0.000088),
-      CurrancyModel(
+      CurrencyModel(
           name: 'Euro',
           real: 5.62,
           dolar: 1.17,
           euro: 1.0,
           bitcoins: 0.00010),
-      CurrancyModel(
+      CurrencyModel(
           name: 'Bitcoin',
           real: 64116.51,
           dolar: 11351.30,
